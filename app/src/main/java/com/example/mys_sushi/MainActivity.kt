@@ -19,7 +19,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnMasuk.setOnClickListener {
-            // Aksi login nanti dibuat di sini
+            val intent = Intent(this, DashboardActivity::class.java)
+            startActivity(intent)
         }
     }
 }

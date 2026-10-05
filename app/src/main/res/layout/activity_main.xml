@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F6FA">
+    android:background="#F5F8FA">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,13 +20,13 @@
             android:layout_marginTop="45dp"
             android:src="@drawable/bg_logo"
             android:scaleType="fitCenter"
-            android:contentDescription="Logo Sarpras PCR" />
+            android:contentDescription="Logo SIGAP" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="18dp"
-            android:text="Sarpras PCR"
+            android:text="SIGAP"
             android:textSize="28sp"
             android:textStyle="bold"
             android:textColor="#242044" />
@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
-            android:text="Sistem Layanan Sarana dan Prasarana"
+            android:text="Sistem Informasi Sarana dan Prasarana"
             android:textSize="14sp"
             android:textColor="#777777" />
 
@@ -52,7 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="Silakan masuk menggunakan akun Anda"
+            android:text="Silakan masuk untuk mengakses layanan sarpras"
             android:textSize="13sp"
             android:textColor="#777777" />
 
