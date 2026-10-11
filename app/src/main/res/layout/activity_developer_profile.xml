@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F8FA"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developer Profile"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#242044"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp" />
+
+        <ImageView
+            android:id="@+id/imgDeveloper"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/bg_logo"
+            android:scaleType="fitCenter"
+            android:contentDescription="Foto Developer" />
+
+        <TextView
+            android:id="@+id/tvDeveloperName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maya Syafana"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#242044"
+            android:gravity="center"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Developer | Student"
+            android:textSize="14sp"
+            android:textColor="#6254D9"
+            android:gravity="center"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TENTANG SAYA"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#6254D9" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Saya adalah mahasiswa yang tertarik pada pengembangan aplikasi Android, desain UI/UX, serta teknologi informasi. Saya senang belajar hal baru dan membangun aplikasi yang bermanfaat."
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginBottom="28dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INFORMASI PRIBADI"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#6254D9"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama: Maya Syafana"
+            android:textSize="15sp"
+            android:textColor="#242044"
+            android:paddingVertical="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jurusan: Teknik Informatika"
+            android:textSize="15sp"
+            android:textColor="#242044"
+            android:paddingVertical="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hobi: Coding, Desain, Musik"
+            android:textSize="15sp"
+            android:textColor="#242044"
+            android:paddingVertical="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kekuatan Terbesar: Problem Solving"
+            android:textSize="15sp"
+            android:textColor="#242044"
+            android:paddingVertical="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SOSIAL MEDIA"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#6254D9"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instagram: @mayasvana"
+            android:textSize="15sp"
+            android:textColor="#242044"
+            android:paddingVertical="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GitHub: github.com/mayakawaii"
+            android:textSize="15sp"
+            android:textColor="#242044"
+            android:paddingVertical="10dp" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:text="Kembali ke Dashboard"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6254D9" />
+
+    </LinearLayout>
+
+</ScrollView>

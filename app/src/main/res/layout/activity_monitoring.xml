@@ -42,9 +42,6 @@
                 android:textStyle="bold"
                 android:textColor="#6254D9"/>
 
-
-            <!-- ITEM MONITORING 1 -->
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
@@ -99,9 +96,6 @@
 
             </LinearLayout>
 
-
-            <!-- ITEM 2 -->
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
@@ -147,9 +141,6 @@
                     android:layout_height="wrap_content"/>
 
             </LinearLayout>
-
-
-            <!-- ITEM 3 -->
 
             <LinearLayout
                 android:layout_width="match_parent"

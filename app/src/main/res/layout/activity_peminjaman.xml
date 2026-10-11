@@ -42,9 +42,6 @@
                 android:textSize="12sp"
                 android:textColor="#777777"/>
 
-
-            <!-- PEMINJAMAN 1 -->
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
@@ -98,9 +95,6 @@
 
             </LinearLayout>
 
-
-            <!-- PEMINJAMAN 2 -->
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
@@ -153,9 +147,6 @@
                     android:background="#EFEDFF"/>
 
             </LinearLayout>
-
-
-            <!-- PEMINJAMAN 3 -->
 
             <LinearLayout
                 android:layout_width="match_parent"

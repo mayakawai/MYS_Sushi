@@ -8,8 +8,6 @@
     android:orientation="vertical"
     android:background="#F5F8FA">
 
-    <!-- TOOLBAR -->
-
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -18,9 +16,6 @@
         android:elevation="2dp"
         app:title="SIGAP"
         app:titleTextColor="#242044"/>
-
-
-    <!-- SCROLLABLE CONTENT -->
 
     <ScrollView
         android:layout_width="match_parent"
@@ -32,9 +27,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="20dp">
-
-
-            <!-- HEADER -->
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -76,9 +68,6 @@
 
             </LinearLayout>
 
-
-            <!-- HERO -->
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="135dp"
@@ -114,8 +103,6 @@
             </LinearLayout>
 
 
-            <!-- STATISTIK -->
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
@@ -148,7 +135,6 @@
 
                 </LinearLayout>
 
-
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -177,9 +163,6 @@
 
             </LinearLayout>
 
-
-            <!-- MENU -->
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -188,7 +171,6 @@
                 android:textSize="17sp"
                 android:textStyle="bold"
                 android:textColor="#242044"/>
-
 
             <Button
                 android:id="@+id/btnSarpras"
@@ -201,7 +183,6 @@
                 android:textColor="#FFFFFF"
                 android:backgroundTint="#6254D9"/>
 
-
             <Button
                 android:id="@+id/btnMonitoring"
                 android:layout_width="match_parent"
@@ -212,7 +193,6 @@
                 android:textStyle="bold"
                 android:textColor="#FFFFFF"
                 android:backgroundTint="#6254D9"/>
-
 
             <Button
                 android:id="@+id/btnPeminjaman"

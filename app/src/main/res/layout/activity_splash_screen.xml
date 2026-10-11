@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="#F5F8FA">
+
+    <ImageView
+        android:id="@+id/imgSplashLogo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/bg_logo"
+        android:scaleType="fitCenter"
+        android:contentDescription="Logo SIGAP" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SIGAP"
+        android:textColor="#242044"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Sistem Informasi Sarana dan Prasarana"
+        android:textColor="#777777"
+        android:textSize="14sp"
+        android:gravity="center" />
+
+    <ProgressBar
+        android:id="@+id/progressSplash"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="45dp"
+        android:indeterminateTint="#6254D9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Memuat aplikasi..."
+        android:textColor="#777777"
+        android:textSize="13sp" />
+
+</LinearLayout>
