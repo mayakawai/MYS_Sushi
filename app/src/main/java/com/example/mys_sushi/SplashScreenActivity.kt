@@ -1,4 +1,3 @@
-
 package com.example.mys_sushi
 
 import android.content.Intent
@@ -30,26 +29,15 @@ class SplashScreenActivity : AppCompatActivity() {
 
             //cek status login
             if (isLogin) {
-
-                val intent = Intent(
-                    this,
-                    DashboardActivity::class.java
+                startActivity(
+                    Intent(this, BaseActivity::class.java)
                 )
-
-                startActivity(intent)
-
             } else {
-
-                //jika belum login
-                val intent = Intent(
-                    this,
-                    MainActivity::class.java
+                startActivity(
+                    Intent(this, MainActivity::class.java)
                 )
-
-                startActivity(intent)
             }
 
-            //menutup SplashScreen
             finish()
 
         }, 2000)

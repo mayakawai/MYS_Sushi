@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_nav_dashboard"
+        android:title="Dashboard" />
+
+    <item
+        android:id="@+id/nav_monitoring"
+        android:icon="@drawable/ic_nav_monitoring"
+        android:title="Monitoring" />
+
+    <item
+        android:id="@+id/nav_peminjaman"
+        android:icon="@drawable/ic_nav_peminjaman"
+        android:title="Peminjaman" />
+
+    <item
+        android:id="@+id/nav_sarpras"
+        android:icon="@drawable/ic_nav_sarpras"
+        android:title="Sarpras" />
+
+    <item
+        android:id="@+id/nav_profil"
+        android:icon="@drawable/ic_nav_profil"
+        android:title="Profil" />
+
+</menu>

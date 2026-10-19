@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F6FC">
+
+    <!-- TOOLBAR -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFFFFF"
+        android:elevation="2dp"
+        app:title="Profil Developer"
+        app:titleTextColor="#29234F" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="22dp">
+
+            <!-- KARTU PROFIL -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:padding="24dp"
+                android:background="@drawable/bg_login_card"
+                android:elevation="3dp">
+
+                <ImageView
+                    android:id="@+id/imgDeveloper"
+                    android:layout_width="112dp"
+                    android:layout_height="112dp"
+                    android:src="@drawable/circle_image_bg"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="Logo profil developer" />
+
+                <TextView
+                    android:id="@+id/tvDeveloperName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="Maya Syafana"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="#29234F" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:gravity="center"
+                    android:text="Android Developer | Student"
+                    android:textSize="13sp"
+                    android:textColor="#6254D9" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="7dp"
+                    android:background="#F0EDFF"
+                    android:text="Developer SIGAP"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="#6254D9" />
+
+            </LinearLayout>
+
+            <!-- TENTANG SAYA -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/bg_login_card"
+                android:elevation="2dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tentang Saya"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="#6254D9" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Saya adalah mahasiswa yang tertarik pada pengembangan aplikasi Android, desain UI/UX, dan teknologi informasi. Saya senang mempelajari hal baru serta membangun aplikasi yang bermanfaat."
+                    android:textSize="14sp"
+                    android:textColor="#403B59"
+                    android:lineSpacingExtra="5dp" />
+
+            </LinearLayout>
+
+            <!-- INFORMASI PRIBADI -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/bg_login_card"
+                android:elevation="2dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Informasi Pribadi"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="#6254D9" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Nama"
+                    android:textSize="12sp"
+                    android:textColor="#625B78" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Maya Syafana"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#29234F" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="12dp"
+                    android:background="#E8E5F2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Jurusan"
+                    android:textSize="12sp"
+                    android:textColor="#625B78" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Teknik Informatika"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#29234F" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="12dp"
+                    android:background="#E8E5F2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Minat dan Hobi"
+                    android:textSize="12sp"
+                    android:textColor="#625B78" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Coding, Desain, dan Musik"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#29234F" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="12dp"
+                    android:background="#E8E5F2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Keahlian"
+                    android:textSize="12sp"
+                    android:textColor="#625B78" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Problem Solving dan Pengembangan Aplikasi"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#29234F" />
+
+            </LinearLayout>
+
+            <!-- SOSIAL MEDIA -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/bg_login_card"
+                android:elevation="2dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sosial Media"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="#6254D9" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:text="Instagram"
+                    android:textSize="12sp"
+                    android:textColor="#625B78" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@mayasvana"
+                    android:textSize="14sp"
+                    android:textColor="#29234F" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:text="GitHub"
+                    android:textSize="12sp"
+                    android:textColor="#625B78" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="github.com/mayakawaii"
+                    android:textSize="14sp"
+                    android:textColor="#29234F" />
+
+            </LinearLayout>
+
+            <!-- TOMBOL KEMBALI -->
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="#6254D9"
+                android:text="Kembali"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

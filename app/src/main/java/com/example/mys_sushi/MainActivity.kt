@@ -1,4 +1,3 @@
-
 package com.example.mys_sushi
 
 import android.content.Intent
@@ -58,21 +57,14 @@ class MainActivity : AppCompatActivity() {
                 ).show()
 
                 //pindah ke DashboardActivity
-                val intent = Intent(
-                    this,
-                    DashboardActivity::class.java
-                )
-
+                val intent = Intent(this, BaseActivity::class.java)
                 startActivity(intent)
                 finish()
 
             } else {
 
                 //jika email atau password salah
-                Toast.makeText(
-                    this,
-                    "Email atau password salah!",
-                    Toast.LENGTH_SHORT
+                Toast.makeText(this, "Email atau password salah!", Toast.LENGTH_SHORT
                 ).show()
             }
         }

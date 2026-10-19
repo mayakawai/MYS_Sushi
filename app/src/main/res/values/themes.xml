@@ -1,9 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.MYS_Sushi" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    <style name="Base.Theme.MYS_Sushi"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Warna navigation bar Android bagian paling bawah -->
+        <item name="android:navigationBarColor">#F5F6FC</item>
+
+        <!-- Ikon Back, Home, dan Recent Apps menjadi gelap -->
+        <item name="android:windowLightNavigationBar">true</item>
+
     </style>
 
     <style name="Theme.MYS_Sushi" parent="Base.Theme.MYS_Sushi" />
+
 </resources>
